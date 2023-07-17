@@ -89,7 +89,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Paragraphs */
 .pre-footer-p {font: 17px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6; text-align: center;}
-.p-section {font: 18px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6; }
+.p-section {font: 18px Raleway, sans-serif; letter-spacing: 0.6;}
 .p-section-specification {font: 12px Raleway, sans-serif; color: #6B6A6A}
 .presenter {font: 12px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
 .moderator {font: 12px Raleway, sans-serif; background: #EFF3F5; border-radius: 37px; color: #6B6A6A; padding: 5px; letter-spacing: 0.6; line-height: 1.6;}
