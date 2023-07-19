@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Archivo&display=swap');
+
 /* HTML */
 html { -webkit-font-smoothing: antialiased;}
 
 /* Body */
-body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-smoothing: antialiased;}
+body {background-color: #FEFEFE; font: 16px; -webkit-font-smoothing: antialiased; font-family: 'Archivo', sans-serif !important; font-weight: 100 !important;}
 
 /* Display */
 .no-display {display: none;}
@@ -44,8 +47,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Colors */
 .color-black {color: #343434;}
-.color-dimgray {color: #4B7781;}
-.color-red {color: #AC3720;}
+.color-dimgray {color: #CCD8D9;}
+.color-red {color: #CC510B;}
 .color-white {color: #FEFEFE;}
 
 /* Links */
@@ -62,45 +65,48 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 @media only screen and (min-width: 321px) and (max-width: 767px) {.font-mail{font-size: 14px;}}
 /* Background colors */
 /*.background-black {background-color: #343434;}*/
-.background-dimgray {background-color: #4B7781;}
+.background-dimgray {background-color: #CCD8D9;}
 .background-dimgray-md {background-color: #729FAA;}
 .background-gray {background-color: #EFF3F5;}
 /*.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}*/
 /*@media only screen and (max-width: 1024px) {.background-hero {background-image: none; background-color: #E8E7F0;}}*/
-.background-red {background-color: #AC3720;}
+.background-red {background-color: #CC510B;}
 .background-white {background-color: #FEFEFE;}
 
 /* Titles */
-.copyright-title {font: 15px Raleway, sans-serif; letter-spacing: 0.6px; text-align: center;}
-.main-title {font: 36px Raleway, sans-serif; font-weight: 400; text-align: center; text-transform: uppercase; line-height: 65px; color: #343434; text-align: right;}
+.copyright-title {font: 15px; letter-spacing: 0.6px; text-align: center;}
+.main-title {font: 36px; font-weight: 400; text-align: center; text-transform: uppercase; color: #343434; text-align: right;}
 @media only screen and (max-width: 767px) {.main-title {font-size: 35px; line-height: 40px;}}
 @media only screen and (max-height: 415px) {.main-title {font-size: 30px;}}
-.main-subtitle-enlarged {font: 25px Raleway, sans-serif; letter-spacing: 2px; text-align: center; line-height: 65px; color: #343434;}
+.main-subtitle-enlarged {font: 25px; letter-spacing: 2px; text-align: center; line-height: 65px; color: #343434;}
 @media only screen and (max-width: 767px) {.main-subtitle-enlarged {font-size: 21px; line-height: 30px;}}
 @media only screen and (max-height: 415px) {.main-subtitle-enlarged {font-size: 18px;}}
-.main-subtitle {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center; color: #343434;}
-.pre-footer-title {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
-.pre-footer-subtitle {font: 17px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
-.secondary-title {font: 35px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
+.main-subtitle {font: 21px; letter-spacing: 2px; text-align: center; color: #343434;}
+.pre-footer-title {font: 21px; letter-spacing: 2px; text-align: center;}
+.pre-footer-subtitle {font: 17px; letter-spacing: 2px; text-align: center;}
+.secondary-title {font: 35px; letter-spacing: 2px; text-align: center;}
 @media only screen and (max-width: 767px) {.secondary-title {font-size: 25px;}}
 @media only screen and (max-height: 415px) {.secondary-title {font-size: 15px;}}
-.thumbnail-title {font: 20px Raleway, sans-serif; font-weight: 600; letter-spacing: 2px;}
-.programme-title {font: 15px Raleway, sans-serif; letter-spacing: 2px; color: #343434; text-transform: uppercase;}
+.thumbnail-title {font: 20px; font-weight: 600; letter-spacing: 2px;}
+.programme-title {font: 15px; letter-spacing: 2px; color: #343434; text-transform: uppercase;}
+
+h1,h2,h3,h4,h5,h6, a.nav-item {font-family: 'Archivo Black', sans-serif !important;}
 
 /* Paragraphs */
-.pre-footer-p {font: 17px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6; text-align: center;}
-.p-section {font: 18px Raleway, sans-serif; letter-spacing: 0.6;}
-.p-section-specification {font: 12px Raleway, sans-serif; color: #6B6A6A}
-.presenter {font: 12px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
-.moderator {font: 12px Raleway, sans-serif; background: #EFF3F5; border-radius: 37px; color: #6B6A6A; padding: 5px; letter-spacing: 0.6; line-height: 1.6;}
+.pre-footer-p {font: 17px; letter-spacing: 0.6; line-height: 1.6; text-align: center;}
+.p-section {font: 18px; letter-spacing: 0.6;}
+.p-section-specification {font: 12px; color: #6B6A6A}
+.program-section-title {font: 18px; letter-spacing: 0.6; font-family: 'Archivo Black', sans-serif !important;}
+.presenter {font: 12px; letter-spacing: 0.6; line-height: 1.6;}
+.moderator {font: 12px; background: #EFF3F5; border-radius: 37px; color: #6B6A6A; padding: 5px; letter-spacing: 0.6; line-height: 1.6;}
 .program-row {padding-top:1vw; padding-bottom:1vw}
-.p-subsection {font: 16px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
+.p-subsection {font: 16px; letter-spacing: 0.6; line-height: 1.6;}
 
 /* Navbar */
-.nav a {color: #343434; cursor: pointer; font: 14px Raleway, sans-serif; letter-spacing: 2px; text-transform: uppercase;}
+.nav a {color: #343434; cursor: pointer; font: 14px; letter-spacing: 2px; text-transform: uppercase;}
 @media only screen and (max-width: 1024px) {.nav a {font-size: 12px;}}
-.nav a:hover {color: #4B7781;}
-.active > a {background-color: transparent !important; color: #4B7781 !important; font-weight: 600; text-shadow: 10px 10px 31px -2px rgba(179,177,179,0.77);}
+.nav a:hover {color: #CCD8D9;}
+.active > a {background-color: transparent !important; color: #CCD8D9 !important; font-weight: 600; text-shadow: 10px 10px 31px -2px rgba(179,177,179,0.77);}
 .navbar-brand {background-color: #FFF; padding-top: 0 !important;}
 @media only screen and (max-width: 1024px) {.navbar-brand > img {display: none !important;}}
 .navbar-default {background-color: #FFF !important; background-image: none !important; border: 0 !important; box-shadow: none !important; -webkit-box-shadow: none !important;}
@@ -115,24 +121,24 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .hr-secondary {border: 4px solid; width: 40%;}
 
 /* Button */
-.button-round {background-color: #AC3720; border: 1px solid #AC3720; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round:hover {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-empty {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-dimgray {background-color: #4B7781; border: 1px solid #4B7781; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-dimgray:hover {background-color: #FEFEFE; border: 1px solid #4B7781; border-radius: 37px; color: #4B7781; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-empty-dimgray {background-color: transparent; border: 1px solid #4B7781; border-radius: 37px; color: #4B7781; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-red {background-color: #AC3720; border: 1px solid #AC3720; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-empty-red {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-white:hover {background-color: #AC3720; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-dimgray {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #4B7781; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-dimgray:hover {background-color: #4B7781; border: 1px solid #FFF; border-radius: 37px; color: #FFF; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round {background-color: #CC510B; border: 1px solid #CC510B; border-radius: 37px; color: #fff; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round:hover {background-color: transparent; border: 1px solid #CC510B; border-radius: 37px; color: #CC510B; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty {background-color: transparent; border: 1px solid #CC510B; border-radius: 37px; color: #CC510B; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-dimgray {background-color: #CCD8D9; border: 1px solid #CCD8D9; border-radius: 37px; color: #fff; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-dimgray:hover {background-color: #FEFEFE; border: 1px solid #CCD8D9; border-radius: 37px; color: #CCD8D9; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty-dimgray {background-color: transparent; border: 1px solid #CCD8D9; border-radius: 37px; color: #CCD8D9; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-red {background-color: #CC510B; border: 1px solid #CC510B; border-radius: 37px; color: #fff; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty-red {background-color: transparent; border: 1px solid #CC510B; border-radius: 37px; color: #CC510B; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #CC510B; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white:hover {background-color: #CC510B; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-dimgray {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #CCD8D9; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-dimgray:hover {background-color: #CCD8D9; border: 1px solid #FFF; border-radius: 37px; color: #FFF; font: 16px; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-inline {text-align: center;}
 .button-inline a, .button-inline button {display: inline;}
 
 /* Homepage */
-.homepage-side {font: 15px Raleway, sans-serif; letter-spacing: 2px; line-height: 45px; color: #343434; text-transform: uppercase;}
-.homepage-side-right {font: 15px Raleway, sans-serif; letter-spacing: 2px; line-height: 45px; color: #343434; text-transform: uppercase; text-align: right;}
+.homepage-side {font: 15px; letter-spacing: 2px; color: #343434; text-transform: uppercase;}
+.homepage-side-right {font: 15px; letter-spacing: 2px; color: #343434; text-transform: uppercase; text-align: right;}
 .homepage-img {background-attachment: fixed; background-image: url('img/background/backgroundgraph.png'); background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; height: 50%;}
 
 @supports (-webkit-touch-callout: none) {
@@ -141,12 +147,12 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Time */
 .time-span {background: #EFF3F5; border-radius: 37px; color: #6B6A6A; padding: 5px; font-size:16px}
-.time-border {border-left: 5px solid #4B7781;}
+.time-border {border-left: 5px solid #CCD8D9;}
 
 /* List */
-.p-list {font: 14px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
-.p-list li:hover {color: #4B7781;}
-.p-list li.bold {color: #4B7781;}
+.p-list {font: 14px; letter-spacing: 0.6; line-height: 1.6;}
+.p-list li:hover {color: #CCD8D9;}
+.p-list li.bold {color: #CCD8D9;}
 
 /* Cards */
 .circle {background-color: #bbb; border-radius: 50%; display: block; height: 15vh; margin: 20px auto; width: 15vh;}
@@ -181,7 +187,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 @media only screen and (max-width: 1024px) {.brand {margin-top: 2vh;}}
 
 /* Mail */
-.mail {font: 15px Raleway, sans-serif; vertical-align: top;}
+.mail {font: 15px; vertical-align: top;}
 
 /* Papers section */
 .papers-sec {background: #FEFEFE; border-radius: 37px; padding: 3% 5%;}
