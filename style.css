@@ -593,7 +593,17 @@ a.nav-item {
     padding: 13.6px 16px;
 }
 
-.button-round-white {
+.background-dimgray .button-round-white {
+    background-color: #FEFEFE;
+    border: 1px solid #FEFEFE;
+    border-radius: 37px;
+    color: #3C6366;
+    font: 16px;
+    margin: 10px 0 14px;
+    padding: 13.6px 16px;
+}
+
+.background-red .button-round-white {
     background-color: #FEFEFE;
     border: 1px solid #FEFEFE;
     border-radius: 37px;
@@ -603,8 +613,8 @@ a.nav-item {
     padding: 13.6px 16px;
 }
 
-.button-round-white:hover {
-    background-color: #CC510B;
+.background-dimgray .button-round-white:hover, .background-red .button-round-white:hover {
+    background-color: transparent;
     border: 1px solid #FEFEFE;
     border-radius: 37px;
     color: #FEFEFE;
@@ -612,6 +622,7 @@ a.nav-item {
     margin: 10px 0 14px;
     padding: 13.6px 16px;
 }
+
 
 .button-dimgray {
     background-color: #FEFEFE;
