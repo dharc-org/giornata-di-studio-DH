@@ -1,10 +1,6 @@
 # Giornata di studio DH
  Sito di presentazione dell'evento "GIORNATA DI STUDIO, LE DIGITAL HUMANITIES - DALLA SCUOLA AL LAVORO" 
 
-** **Development Repository** **
-
-Direct link to the website for the event: https://valentinapasqual.github.io/giornata-di-studio-DH
-
  # Academic Event Template
 
 <b>Template Demo</b>: https://martinadellobuono.github.io/academicevent-template/
