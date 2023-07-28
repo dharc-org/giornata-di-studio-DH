@@ -133,6 +133,15 @@ body {
     float: left;
 }
 
+.vertically-center-container {
+    height: 100vh;
+}
+
+.vertically-center {
+    position: relative;
+    top: 25%;
+}
+
 @media only screen and (max-width: 1024px) {
     .left {
         display: block;
@@ -180,6 +189,11 @@ body {
 
 .color-white {
     color: #FEFEFE;
+}
+
+/* borders */
+.border-bottom {
+    border-bottom: 1px solid transparent;
 }
 
 /* Links */
@@ -264,7 +278,7 @@ body {
 
 .background-gray {
     background-color: #EFF3F5;
-    color: #FEFEFE;
+    color: #4E4E4E;
 }
 
 /*.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}*/
@@ -611,6 +625,7 @@ a.nav-item {
     padding: 13.6px 16px;
 }
 
+.tile.background-red .button-round-white,
 .background-red .button-round-white {
     background-color: #FEFEFE;
     border: 1px solid #FEFEFE;
@@ -621,7 +636,9 @@ a.nav-item {
     padding: 13.6px 16px;
 }
 
-.background-dimgray .button-round-white:hover, .background-red .button-round-white:hover {
+.background-dimgray .button-round-white:hover,
+.background-red .button-round-white:hover,
+.tile.background-red .button-round-white:hover {
     background-color: transparent;
     border: 1px solid #FEFEFE;
     border-radius: 37px;
@@ -899,4 +916,74 @@ a.nav-item {
     }
 }
 
-.logo-img {max-height: 103px; width:auto}
+.logo-img {
+    max-height: 103px;
+    width: auto;
+}
+
+/* Chessboard */
+.chessboard {
+    display: flex;
+}
+
+.tile-light {
+    padding: 5vh;
+    width: 50%;
+}
+
+.tile-dark {
+    padding: 5vh;
+    flex: 1;
+}
+
+.tile .secondary-title {
+    font-size: 24px;
+}
+
+/* MOBILE VERSION */
+@media (max-width: 768px) {
+
+    .border-bottom {
+        border-bottom: 1px solid #3434341c;
+    }
+
+    .chessboard {
+        display: block;
+    }
+
+    h3,
+    .h3 {
+        font-size: 20px !important;
+    }
+
+    .logo-img {
+        max-height: 70px;
+    }
+
+    .main-title,
+    .homepage-side,
+    .homepage-side-right {
+        text-align: center;
+    }
+
+    .pre-footer .col-md-2 {
+        margin-bottom: 20px;
+    }
+
+
+    .tile-dark,
+    .tile-light {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .vertically-center-container {
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mobile-home-img {
+        width: 8%;
+    }
+}
