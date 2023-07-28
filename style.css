@@ -273,7 +273,7 @@ body {
 
 .background-gray {
     background-color: #EFF3F5;
-    color: #FEFEFE;
+    color: #4E4E4E;
 }
 
 /*.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}*/
@@ -620,7 +620,7 @@ a.nav-item {
     padding: 13.6px 16px;
 }
 
-.background-red .button-round-white {
+.tile.background-red .button-round-white, .background-red .button-round-white {
     background-color: #FEFEFE;
     border: 1px solid #FEFEFE;
     border-radius: 37px;
@@ -630,7 +630,7 @@ a.nav-item {
     padding: 13.6px 16px;
 }
 
-.background-dimgray .button-round-white:hover, .background-red .button-round-white:hover {
+.background-dimgray .button-round-white:hover, .background-red .button-round-white:hover, .tile.background-red .button-round-white:hover {
     background-color: transparent;
     border: 1px solid #FEFEFE;
     border-radius: 37px;
@@ -908,4 +908,22 @@ a.nav-item {
     }
 }
 
-.logo-img {max-height: 103px; width:auto}
+.logo-img {
+    max-height: 103px;
+    width: auto;
+}
+
+/* Chessboard */
+.chessboard {
+    display: flex;
+}
+
+.tile-light {
+    padding: 13vh;
+    width: 50%;
+}
+
+.tile-dark {
+    padding: 13vh;
+    flex: 1;
+}
