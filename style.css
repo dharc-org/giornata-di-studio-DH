@@ -133,6 +133,15 @@ body {
     float: left;
 }
 
+.vertically-center-container {
+    height: 100vh;
+}
+
+.vertically-center {
+    position: relative;
+    top: 25%;
+}
+
 @media only screen and (max-width: 1024px) {
     .left {
         display: block;
