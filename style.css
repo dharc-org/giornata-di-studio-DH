@@ -932,7 +932,7 @@ a.nav-item {
 }
 
 /* MOBILE VERSION */
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 768px) {
 
     h3, .h3 {
         font-size: 20px !important;
@@ -946,6 +946,14 @@ a.nav-item {
 
     .pre-footer .col-md-2 {
         margin-bottom: 10px;
+    }
+
+    .chessboard {
+        display: block;
+    }
+
+    .tile-dark, .tile-light {
+        width: 100%;
     }
 
     .vertically-center-container {
